@@ -1,5 +1,6 @@
 // API base URL
-const API = import.meta.env.VITE_API_URL ;//|| "http://localhost:8000"
+//const API = import.meta.env.VITE_API_URL ;//|| "http://localhost:8000"
+const API ="https://service-now-field-script-generator.vercel.app";
 
 /**
  * Resolve a data type to ServiceNow equivalent
