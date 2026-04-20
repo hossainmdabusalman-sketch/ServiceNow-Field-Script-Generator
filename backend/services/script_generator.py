@@ -21,6 +21,8 @@ class ScriptGenerator:
             "// Creates language-specific labels: English (en) and Japanese (ja)",
             "// Users see labels based on their language preference",
             "",
+            f"var tableName = '{tbl}';",
+            "",
         ]
         
         for field in fields:
