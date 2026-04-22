@@ -33,7 +33,7 @@ export default function FieldsTable({
             <tr>
               <th className="col-num">#</th>
               <th>論理名 (Japanese Label)</th>
-              <th>English Label</th>
+              {/* <th>English Label</th> */}
               <th>物理名 (Field Name)</th>
               <th>データ型 (Oracle / Domain)</th>
               <th className="col-type">→ SN Type</th>
@@ -59,13 +59,13 @@ export default function FieldsTable({
                     placeholder="年月"
                   />
                 </td>
-                <td>
+                {/* <td>
                   <input
                     value={row.english_label}
                     onChange={(e) => onUpdateRow(row.id, "english_label", e.target.value)}
                     placeholder="Year Month"
                   />
-                </td>
+                </td> */}
                 <td>
                   <input
                     value={row.field_name}
